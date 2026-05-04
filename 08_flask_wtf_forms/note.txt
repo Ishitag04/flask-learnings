@@ -1,0 +1,15 @@
+Flask WTF(Web Template Form)
+
+. validator
+. cleaner python code (classes)
+. secure (CSRF-cross site request forgrey attack)
+
+
+. python - form class
+. field types
+. built-in validator
+. CSRF protection
+
+
+pip install flask-wtf
+pip install email_validator

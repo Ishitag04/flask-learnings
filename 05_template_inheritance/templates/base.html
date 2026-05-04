@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}My Website{% endblock %}</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 20px;
+        }
+        header{
+            background: #333;
+            color: white;
+            padding: 10px;
+        }
+        footer{
+            background: yellow;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h2>My Site</h2>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+        </nav>
+    </header>
+
+    {% block content %}
+    
+    {% endblock %}
+
+    <footer>
+        <p>@2025 Coding Wise Academy INDIA's best IT Training and Placement Institute</p>
+    </footer>
+
+</body>
+</html>

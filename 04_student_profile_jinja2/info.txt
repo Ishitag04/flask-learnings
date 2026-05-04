@@ -1,0 +1,19 @@
+JINJA 2 
+
+Helps run python code into HTML, comes default with flask
+
+- python values:
+{{variable}}
+
+- conditionals:
+{% if __ %}
+...
+{% else %}
+...
+{% endif %}
+
+- loops:
+{% for i in x %}
+...{{i}}...
+{% endfor %}
+
