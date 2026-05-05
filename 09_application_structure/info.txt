@@ -1,0 +1,11 @@
+For creating the folder as a module/package(we can import it), we need to make __init__.py in every folder
+
+To make database and main logic separate, we use models folder for database and routes folder for other mains
+
+1 model per file
+
+All the html files visible to user are there in templates folder
+
+static folder has all those files that don't change - CSS, JS, Images
+url_for('static',filename='name')
+
