@@ -26,6 +26,8 @@ This repository contains my hands-on learning of Flask, covering core concepts s
 
 8\. Flask-WTF Forms
 
+9\. Application structure (Blueprint)
+
 
 
 \## 🛠 Tech Stack
@@ -76,7 +78,7 @@ This repository contains my hands-on learning of Flask, covering core concepts s
 
 \## 🎯 Future Plans
 
-\- Application Structure (Blueprints)
+\- Database and SQLAlchemy Integration
 
 \- Full Flask Project (End-to-End)
 
