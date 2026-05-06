@@ -1,0 +1,35 @@
+SQLlite => file based database engine(comes pre-built with python)
+(data.db)
+- No setup needed
+- saves everything in file
+
+Disadvantages
+- Not used in real production systems because it cannot handle huge traffic
+- Does not provide full features support
+
+
+
+SQLAlchemy - allows to use python code to query database instead of SQL
+- Models
+- Data types
+- Relationships
+
+Disadvantages
+- Manual taks
+- Relationships
+- Querying records take too much code
+
+SQLAlchemy = ORM (Object Relational Mapper)
+Object - Python classes
+Relational - Database table
+Mapper - Translates between them
+
+Works with major database as well
+
+db.model - table
+db.Column - Column
+.add()
+.commit()
+.filter()
+.all()
+.get()
