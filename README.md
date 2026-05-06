@@ -28,6 +28,8 @@ This repository contains my hands-on learning of Flask, covering core concepts s
 
 9\. Application structure (Blueprint)
 
+10\. Database Integration using SQLite and SQLAlchemy
+
 
 
 \## 🛠 Tech Stack
@@ -77,8 +79,6 @@ This repository contains my hands-on learning of Flask, covering core concepts s
 
 
 \## 🎯 Future Plans
-
-\- Database and SQLAlchemy Integration
 
 \- Full Flask Project (End-to-End)
 
