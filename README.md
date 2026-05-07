@@ -1,504 +1,269 @@
-\# Flask Learnings \& Projects 🚀
-
-
+# Flask Learnings and Projects 🚀
 
 A structured Flask learning repository documenting my journey from Flask basics to building complete web applications using Flask, SQLAlchemy, Jinja2, Blueprints, and SQLite.
 
-
-
 This repository contains hands-on implementations, mini-projects, and complete Flask applications built while learning backend web development with Python.
 
+---
 
-
-\---
-
-
-
-\# 📌 What This Repository Covers
-
-
+# 📌 What This Repository Covers
 
 This repository includes:
 
+- Flask Fundamentals
+- Routing & Views
+- Templates with Jinja2
+- Forms Handling
+- Flash Messages
+- Session Management
+- Flask-WTF
+- SQLAlchemy ORM
+- SQLite Database Integration
+- Blueprints & Modular Structure
+- CRUD Operations
+- Authentication Basics
+- Full Flask Projects
 
+---
 
-\- Flask Fundamentals
+# 📚 Topics & Projects
 
-\- Routing \& Views
+## 01️⃣ Basic Flask Application
+- Creating Flask apps
+- Running Flask server
+- Basic routing
 
-\- Templates with Jinja2
+---
 
-\- Forms Handling
+## 02️⃣ Rendering Templates
+- Jinja2 templates
+- Dynamic HTML rendering
+- Passing variables to templates
 
-\- Flash Messages
+---
 
-\- Session Management
+## 03️⃣ Login Application
+- GET & POST requests
+- Basic login validation
+- User authentication flow
 
-\- Flask-WTF
+---
 
-\- SQLAlchemy ORM
+## 04️⃣ Student Profile App
+- Dynamic profile rendering
+- Template variables
+- Conditional rendering
 
-\- SQLite Database Integration
+---
 
-\- Blueprints \& Modular Structure
+## 05️⃣ Template Inheritance
+- Base templates
+- Reusable layouts
+- Jinja blocks & extensions
 
-\- CRUD Operations
+---
 
-\- Authentication Basics
+## 06️⃣ Form Handling
+- HTML forms
+- Request processing
+- Handling user input
 
-\- Full Flask Projects
+---
 
+## 07️⃣ Flash Messages
+- Success/Error notifications
+- Flask flashing system
+- User feedback handling
 
+---
 
-\---
+## 08️⃣ Flask-WTF Forms
+- WTForms integration
+- Form validation
+- Secure form handling
 
+---
 
+## 09️⃣ Flask Application Structure
+- Blueprints
+- Organized project structure
+- Modular Flask applications
 
-\# 📚 Topics \& Projects
+---
 
+## 🔟 Database Integration
+- SQLite database
+- SQLAlchemy ORM
+- Models & database operations
 
+---
 
-\## 01️⃣ Basic Flask Application
+# 📝 11️⃣ Flask Project — To-Do List App
 
-\- Creating Flask apps
-
-\- Running Flask server
-
-\- Basic routes
-
-
-
-\---
-
-
-
-\## 02️⃣ Rendering Templates
-
-\- Jinja2 templates
-
-\- Dynamic HTML rendering
-
-\- Passing variables to templates
-
-
-
-\---
-
-
-
-\## 03️⃣ Login Application
-
-\- GET \& POST requests
-
-\- Basic login validation
-
-\- User authentication flow
-
-
-
-\---
-
-
-
-\## 04️⃣ Student Profile App
-
-\- Dynamic profile rendering
-
-\- Template variables
-
-\- Conditional rendering
-
-
-
-\---
-
-
-
-\## 05️⃣ Template Inheritance
-
-\- Base templates
-
-\- Reusable layouts
-
-\- Jinja blocks \& extensions
-
-
-
-\---
-
-
-
-\## 06️⃣ Form Handling
-
-\- HTML forms
-
-\- Request processing
-
-\- Handling user input
-
-
-
-\---
-
-
-
-\## 07️⃣ Flash Messages
-
-\- Success/Error notifications
-
-\- User feedback messages
-
-\- Flask flashing system
-
-
-
-\---
-
-
-
-\## 08️⃣ Flask-WTF Forms
-
-\- WTForms integration
-
-\- Form validation
-
-\- Secure form handling
-
-
-
-\---
-
-
-
-\## 09️⃣ Flask Application Structure
-
-\- Blueprints
-
-\- Organized project structure
-
-\- Modular Flask applications
-
-
-
-\---
-
-
-
-\## 🔟 Database Integration
-
-\- SQLite database
-
-\- SQLAlchemy ORM
-
-\- Models \& database operations
-
-
-
-\---
-
-
-
-\# 📝 11️⃣ Flask Project — To-Do List App
-
-
+🔗 [Open Project Folder](11_project_to_do_list_app/)
 
 A complete task management web application built using Flask and SQLite.
 
+## ✨ Features
 
+- User Login System
+- Session-based Authentication
+- Add New Tasks
+- Update Task Status
+- Clear All Tasks
+- Flash Messages
+- Dynamic Task Rendering
+- Database Integration using SQLite
+- Clean UI using HTML & CSS
 
-\## ✨ Features
+---
 
-\- User Login System
+## 🛠️ Technologies Used
 
-\- Session-based Authentication
+- Python
+- Flask
+- SQLAlchemy
+- SQLite
+- Jinja2
+- HTML5
+- CSS3
 
-\- Add New Tasks
+---
 
-\- Update Task Status
+## 🧠 Concepts Practiced
 
-\- Clear All Tasks
+- CRUD Operations
+- Flask Blueprints
+- Application Factory Pattern
+- Session Management
+- Routing & Views
+- Template Inheritance
+- Database Modeling
+- Flash Messaging
+- Forms Handling
 
-\- Flash Messages
+---
 
-\- Dynamic Task Rendering
+# 📸 Project Preview
 
-\- Database Integration using SQLite
+## Login Page
+![Login Page](11_project_to_do_list_app/screenshots/login_page.png)
 
-\- Clean UI with HTML \& CSS
+---
 
+## Task Dashboard
+![Task Dashboard](11_project_to_do_list_app/screenshots/task_dashboard.png)
 
+---
 
-\---
-
-
-
-\## 🛠️ Technologies Used
-
-\- Python
-
-\- Flask
-
-\- SQLAlchemy
-
-\- SQLite
-
-\- Jinja2
-
-\- HTML5
-
-\- CSS3
-
-
-
-\---
-
-
-
-\## 🧠 Concepts Practiced
-
-\- CRUD Operations
-
-\- Flask Blueprints
-
-\- Application Factory Pattern
-
-\- Session Management
-
-\- Routing \& Views
-
-\- Template Inheritance
-
-\- Database Modeling
-
-\- Flash Messaging
-
-\- Forms Handling
-
-
-
-\---
-
-
-
-\# 📂 Repository Structure
-
-
+# 📂 Repository Structure
 
 ```plaintext
-
-flask-learnings/
-
+flask-learnings-and-projects/
 │
-
-├── 01\_basic\_flask/
-
-├── 02\_templates/
-
-├── 03\_login\_app/
-
-├── 04\_student\_profile/
-
-├── 05\_template\_inheritance/
-
-├── 06\_form\_handling/
-
-├── 07\_flash\_messages/
-
-├── 08\_flask\_wtf/
-
-├── 09\_application\_structure/
-
-├── 10\_database\_integration/
-
-├── 11\_project\_to\_do\_list\_app/
-
+├── 01_basic_flask/
+├── 02_templates/
+├── 03_login_app/
+├── 04_student_profile/
+├── 05_template_inheritance/
+├── 06_form_handling/
+├── 07_flash_messages/
+├── 08_flask_wtf/
+├── 09_application_structure/
+├── 10_database_integration/
+├── 11_project_to_do_list_app/
+│   ├── to_do_app/
+│   ├── screenshots/
+│   └── README.md
+│
+└── README.md
 ```
 
+---
 
+# ▶️ Running Projects Locally
 
-\---
-
-
-
-\# ▶️ Running a Flask Project
-
-
-
-\## Clone the repository
-
-
+## Clone the repository
 
 ```bash
-
-git clone https://github.com/Ishitag04/flask-learnings.git
-
+git clone https://github.com/Ishitag04/flask-learnings-and-projects.git
 ```
 
+---
 
+## Move into a project folder
 
-\---
-
-
-
-\## Move into the project folder
-
-
+Example:
 
 ```bash
-
-cd flask-learnings-and-projects
-
+cd flask-learnings-and-projects/11_project_to_do_list_app/to_do_app
 ```
 
+---
 
-
-\---
-
-
-
-\## Install dependencies
-
-
+## Install dependencies
 
 ```bash
-
-pip install flask flask-sqlalchemy flask-wtf
-
+pip install -r requirements.txt
 ```
 
+---
 
-
-\---
-
-
-
-\## Navigate to any folder:
-
-
+## Run the Flask application
 
 ```bash
-cd 01\_login\_basic
-```
-
-
-
-\---
-
-
-
-\## Run the application
-
-
-
-```bash
-
-python -m flask run --debug
-
-Or
-
 python run.py
-
 ```
 
+The Flask server will start on:
 
-
-\---
-
-
-
-\## Open browser:
-
-
-
-```bash
-http://127.0.0.1:5000/
+```plaintext
+http://127.0.0.1:5000
 ```
 
+---
 
+# 📸 Future Improvements
 
-\---
+- Add more complete Flask projects
+- Password hashing
+- User-specific task storage
+- Task deadlines & categories
+- Responsive UI improvements
+- Deployment on Render
 
+---
 
-
-
-
-\# 📸 Future Improvements
-
-\- Add more complete Flask projects
-
-\- User registration system
-
-\- Password hashing
-
-\- Task deadlines \& categories
-
-\- Responsive UI
-
-\- Deployment on Render
-
-
-
-\---
-
-
-
-\# 🎯 Learning Goal
-
-
+# 🎯 Learning Goal
 
 This repository represents my backend web development learning journey while exploring Flask through practical projects and structured implementations.
 
-
-
 The goal is to strengthen:
 
-\- Backend Development
+- Backend Development
+- Database Handling
+- Full-Stack Fundamentals
+- Application Architecture
+- Real-world Flask Development Skills
 
-\- Database Handling
+---
 
-\- Full-Stack Fundamentals
+# 🚀 Future Learning Goals
 
-\- Application Architecture
+- Django Development
+- REST APIs with Flask
+- Authentication Systems
+- Flask + React Integration
+- Machine Learning Model Deployment
+- Full-Stack Web Development
 
-\- Real-world Flask Development Skills
+---
 
+# 👩‍💻 Author
 
-
-\---
-
-
-
-\# 🚀 Upcoming Learning
-
-
-
-\- Django Development
-
-\- REST APIs
-
-\- Advanced Authentication
-
-\- Flask APIs
-
-\- Machine Learning Integration
-
-
-
-\---
-
-
-
-\# 👩‍💻 Author
-
-
-
-\## Ishita Garg
+## Ishita Garg
 
 B.Tech CSE Student  
-
-Learning Backend Development, Flask, Django, Machine Learning \& Data Science through hands-on projects.
-
-
+Learning Backend Development, Flask, Django, Machine Learning & Data Science through hands-on projects.
 
 GitHub: https://github.com/Ishitag04
-

@@ -240,7 +240,7 @@ Password: 1234
 
 \## Login Page
 
-!\[Login Page](screenshots/login-page.png)
+!\[Login Page](screenshots/login_page.png)
 
 
 
@@ -250,7 +250,7 @@ Password: 1234
 
 \## Task Dashboard
 
-!\[Task Dashboard](screenshots/task-dashboard.png)
+!\[Task Dashboard](screenshots/task_dashboard.png)
 
 
 
